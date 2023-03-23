@@ -486,6 +486,7 @@ window.addEventListener('keydown',  (event) =>{
             if (enemy.position.x > 930) {
                 key.j.pressed = false
                 enemy.position.x = 930
+                player.switchSprite('idle - flipped')
                 }
             else{
                 key.j.pressed = true
